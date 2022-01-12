@@ -3,3 +3,5 @@ venv
 Pipfile.lock
 Pipfile
 .idea
+app/test_app.py
+*.pytest_cache
