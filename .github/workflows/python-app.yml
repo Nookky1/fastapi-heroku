@@ -52,7 +52,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Docker Login
-        run: docker login --username=_ --password=$(heroku auth:$HEROKU_API_KEY) registry.heroku.com
+        run: docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
 
       - name: Deploy on Heroku Container
         run: |
