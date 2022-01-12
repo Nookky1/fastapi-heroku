@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 async def index():
-    return {'massage': 'hello heroku'}
+    return {'message': 'hello heroku'}
